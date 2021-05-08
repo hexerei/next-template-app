@@ -1,5 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import {
+  DocumentTextIcon,
+  AcademicCapIcon,
+  CollectionIcon,
+  PhotographIcon,
+  GlobeAltIcon
+} from '@heroicons/react/outline'
 
 export default function Home() {
   return (
@@ -30,6 +37,7 @@ export default function Home() {
             href="https://nextjs.org/docs"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
           >
+            <DocumentTextIcon className="w-8 h-8 float-left mr-2 text-gray-400" />
             <h2 className="text-2xl font-bold">Documentation &rarr;</h2>
             <p className="mt-4 text-xl">
               Find in-depth information about Next.js features and API.
@@ -40,6 +48,7 @@ export default function Home() {
             href="https://nextjs.org/learn"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
           >
+            <AcademicCapIcon className="w-8 h-8 float-left mr-2 text-gray-400" />
             <h2 className="text-2xl font-bold">Learn &rarr;</h2>
             <p className="mt-4 text-xl">
               Learn about Next.js in an interactive course with quizzes!
@@ -50,6 +59,7 @@ export default function Home() {
             href="https://tailwindcss.com/docs"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
           >
+            <DocumentTextIcon className="w-8 h-8 float-left mr-2 text-gray-400" />
             <h2 className="text-2xl font-bold">Tailwind CSS &rarr;</h2>
             <p className="mt-4 text-xl">
               Find in-depth information about Tailwind CSS features and usage.
@@ -57,9 +67,21 @@ export default function Home() {
           </a>
 
           <a
+            href="https://heroicons.com"
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+          >
+            <PhotographIcon className="w-8 h-8 float-left mr-2 text-gray-400" />
+            <h2 className="text-2xl font-bold">heroicons &rarr;</h2>
+            <p className="mt-4 text-xl">
+              Beautiful hand-crafted SVG icons by the makers of Tailwind CSS.
+            </p>
+          </a>
+
+          <a
             href="https://github.com/vercel/next.js/tree/master/examples"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
           >
+            <CollectionIcon className="w-8 h-8 float-left mr-2 text-gray-400" />
             <h2 className="text-2xl font-bold">Examples &rarr;</h2>
             <p className="mt-4 text-xl">
               Discover and deploy boilerplate example Next.js projects.
@@ -70,6 +92,7 @@ export default function Home() {
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
           >
+            <GlobeAltIcon className="w-8 h-8 float-left mr-2 text-gray-400" />
             <h2 className="text-2xl font-bold">Deploy &rarr;</h2>
             <p className="mt-4 text-xl">
               Instantly deploy your Next.js site to a public URL with Vercel.
