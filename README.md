@@ -27,11 +27,19 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Learn More about Tailwind CSS
+## Learn More about Tailwind
 
-To learn more about Tailwind CSS, take a look at the following resources:
+To learn more about Tailwind CSS and their heroicons, take a look at the following resources:
 
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs) - learn Tailwind the way that best matches your learning style.
+
+- [Heroicons Overview](https://heroicons.com) - nice hand-crafted SVG icons, by the makers of Tailwind CSS.
+
+## Metas and Favicons
+
+The repository includes `pages/_documents.js` with a full set of HTML meta entries for SEO friendly pages, make sure to adapt titles, descriptions, keywords and urls to match your target.
+
+There is also a very useful bash script `genfavi.sh` which allows you to generate all the needed favicons. It does require that you have ImageMagick installed locally and your source image should be at least 310x310 pixels in size.
 
 ## Deploy on Vercel
 
